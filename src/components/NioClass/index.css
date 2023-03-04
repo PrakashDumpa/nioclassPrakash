@@ -1,0 +1,36 @@
+.parent_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e8eaf6;
+}
+.main_container {
+  width: 100%;
+  color: rgb(0, 30, 60);
+}
+.parent_question_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cffcf1;
+}
+.question_container {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .parent_container {
+  }
+  .main_container {
+    width: 80%;
+  }
+  .question_container {
+    height: 250px;
+    width: 75%;
+  }
+}
