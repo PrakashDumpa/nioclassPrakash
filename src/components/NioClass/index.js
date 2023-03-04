@@ -89,10 +89,10 @@ const NioClass = () => {
             onClose={handleClose}
             aria-labelledby="draggable-dialog-title"
           >
-            <DialogContent>
-              <DialogContentText>
+            <DialogContent className="dialog_container">
+              <h4 className="h4 text-secondary">
                 Sorry, No Answer is currently available.
-              </DialogContentText>
+              </h4>
             </DialogContent>
             <DialogActions>
               <Button autoFocus onClick={handleClose}>
